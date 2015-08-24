@@ -1,10 +1,15 @@
 source 'https://rubygems.org'
 
 #ruby 2.2.2
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.3'
-#gem 'mysql2'
+gem 'rails', '4.2.3'    # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
+
 gem 'sqlite3'
+#gem 'postgresql'
+#gem 'mysql2'
+#gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
+#gem 'bson_ext'
+
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
@@ -14,10 +19,10 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'slim'
 gem 'stylus'
-#gem 'sass-rails', '~> 5.0'
+#gem 'sass-rails'#, '~> 5.0'
 gem 'opal'
 #gem 'typescript'
-#gem 'coffee-rails', '~> 4.1.0'
+#gem 'coffee-rails'#, '~> 4.1.0'
 
 
 # Use jquery as the JavaScript library
@@ -26,14 +31,13 @@ gem 'jquery-rails'
 
 # Core 
 gem 'figaro', '~> 0.7.0'
-gem 'simple_form', '~> 3.1.0.rc1'
+gem 'simple_form'#, '~> 3.1.0.rc1'
 gem 'nokogiri'  #html, xml, sax, reader and css parser  # Convert HTML to Haml or Slim # Replaces hpricot
 
 
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-osm'
-
 
 
 group :doc do
@@ -72,8 +76,8 @@ end
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-## Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-#gem 'turbolinks'
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+# gem 'turbolinks'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
