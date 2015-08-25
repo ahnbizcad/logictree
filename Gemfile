@@ -37,7 +37,6 @@ gem 'nokogiri'  #html, xml, sax, reader and css parser  # Convert HTML to Haml o
 
 gem 'devise'
 gem 'omniauth'
-gem 'omniauth-osm'
 
 
 group :doc do
