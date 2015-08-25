@@ -17,7 +17,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'uglifier', '>= 1.3.0'
 
 
-gem 'slim'
+gem 'slim-rails'    # slim generators. includes the gem 'slim'
 gem 'stylus'
 #gem 'sass-rails'#, '~> 5.0'
 gem 'opal'
