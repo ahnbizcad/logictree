@@ -30,7 +30,7 @@ gem 'jquery-rails'
 
 
 # Core 
-gem 'figaro', '~> 0.7.0'
+gem 'figaro', '~>1.0.0'
 gem 'simple_form'#, '~> 3.1.0.rc1'
 gem 'nokogiri'  #html, xml, sax, reader and css parser  # Convert HTML to Haml or Slim # Replaces hpricot
 
